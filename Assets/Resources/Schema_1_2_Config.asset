@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54e48609178f4867a02138d08d99a71f, type: 3}
+  m_Name: Schema_1_2_Config
+  m_EditorClassIdentifier: 
+  _indication:
+  - Resistance: 0.6
+    Amperage: 100
+    LimitAmperage: 0.15
+    Voltage: 122
+    LimitVoltage: 0.07406
+  - Resistance: 6
+    Amperage: 100
+    LimitAmperage: 0.15
+    Voltage: 100
+    LimitVoltage: 0.75
+  - Resistance: 60
+    Amperage: 70
+    LimitAmperage: 0.15
+    Voltage: 80
+    LimitVoltage: 7.5
+  - Resistance: 600
+    Amperage: 80
+    LimitAmperage: 0.03
+    Voltage: 90
+    LimitVoltage: 15
+  - Resistance: 6000
+    Amperage: 20
+    LimitAmperage: 0.15
+    Voltage: 115
+    LimitVoltage: 15
+  _voltage:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 122
+      inSlope: 3333
+      outSlope: 3333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.00090009003
+      value: 125
+      inSlope: -833.25
+      outSlope: -833.25
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.00990099
+      value: 80
+      inSlope: -2421.98
+      outSlope: -2421.98
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09990999
+      value: 94
+      inSlope: 89.4355
+      outSlope: 89.4355
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 115
+      inSlope: 23.331001
+      outSlope: 23.331001
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _amperage:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 100
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.00090009003
+      value: 100
+      inSlope: -1666.5
+      outSlope: -1666.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.00990099
+      value: 70
+      inSlope: -1610.95
+      outSlope: -1610.95
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09990999
+      value: 80
+      inSlope: 22.219997
+      outSlope: 22.219997
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 20
+      inSlope: -66.66
+      outSlope: -66.66
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
